@@ -135,6 +135,10 @@
         color: #ddd;
         margin-bottom: 20px;
     }
+    
+    th{
+        text-align: center;
+    }
     </style>
 </head>
 
