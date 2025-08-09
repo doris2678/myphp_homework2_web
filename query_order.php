@@ -136,10 +136,7 @@
         margin-bottom: 20px;
     }
     
-    th{
-        text-align: center;
-    }
-    </style>
+     </style>
 </head>
 
 <body>
@@ -156,7 +153,7 @@
                 $acc = $_SESSION['mem'];
                 $table = 'order1';                
              ?>
-                <table class="table table-bordered table-hover table-fixed">
+                <table class="order-table">
                 <thead>
                     <tr>
                         <th style="width: 10%;">訂單編號</th>
@@ -187,9 +184,7 @@
                                 <button class="btn btn-info view-details" data-or-no="<?= $row['or_no']; ?>">
                                     <i class="fa-solid fa-eye"></i> 查詢明細
                                 </button>
-                                <!-- <a class="btn btn-danger" href="./api/delete.php?id=<?= $row['id']; ?>&table=<?= $table; ?>">
-                                    <i class="fa-solid fa-trash-can"></i> 刪除
-                                </a> -->
+                                
                             </td>
                         </tr>                  
                     <?php                      
