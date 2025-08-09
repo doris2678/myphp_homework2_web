@@ -135,7 +135,7 @@
                         <img src="./images/<?=$row['img'];?>" alt="<?=$row['item_name'];?>">
                     </div>
                     <div class="item-info">
-                        <div class="item-name">品名: <?=$row['item_name'];?></div>
+                        <!-- <div class="item-name">品名: <?=$row['item_name'];?></div> -->
                         <h3><?=$row['item_name'];?></h3>
                         <div class="item-price">NT$ <?=$row['price'];?></div>          
                     </div>
